@@ -10,5 +10,18 @@ package coneccionoracle;
  * @author alumno04
  */
 public class Conexion {
-    Cl
-}
+    public static Conexion conectar(){
+     Conexion conexion=null;
+        try {
+            
+        } catch (Exception e) {
+        }
+     finally{
+            
+        }
+     Class.forName("oracle.jdbc.driver.OracleDriver");
+     return conexion;
+    }
+    
+    
+    }
